@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c763d30d9de364685286e54618c3ee, type: 3}
+  m_Name: TriviaLaberinto3D
+  m_EditorClassIdentifier: 
+  questions:
+  - question: "Si encuentras una forma disruptiva de hacer las cosas al interior
+      de tu \xE1rea."
+    answers:
+    - Mejor no lo propongo, por si no resulta
+    - "Espero a que alguien m\xE1s lo mencione"
+    - Comparto la idea y la probamos en equipo
+    - Espero que mi jefe me diga para hacerlo, aunque ya tenga la idea clara
+    correctIndex: 2
+  - question: "Tu equipo debe entregar un informe en 2 horas y tienen intervenir
+      3 \xE1reas."
+    answers:
+    - Cada uno termina lo suyo y luego juntan todo
+    - "Me comunico con las \xE1reas responsables para reunirnos y culminar el informe"
+    - Esperan a que el jefe organice el trabajo
+    - Cada uno hace lo que puede sin coordinar, para al menos avanzar algo
+    correctIndex: 1
+  - question: Te asignan un nuevo proyecto con un equipo distinto y herramientas
+      diferentes.
+    answers:
+    - Te adaptas, aprendes lo nuevo y colaboras
+    - Te resistes al cambio
+    - Delegas para no complicarte
+    - Pides a tu jefe cambiar de proyecto porque prefieres seguir con lo conocido
+    correctIndex: 0
+  - question: "Surge un problema en un \xE1rea distinta a la tuya, pero t\xFA tienes
+      la experiencia "
+    answers:
+    - No intervienes porque no es tu responsabilidad
+    - Te acercas, compartes tu experiencia y ayudas a resolverlo
+    - Esperas que te lo pidan formalmente
+    - Dices a tu jefe que no te corresponde ese problema y sigues trabajando
+    correctIndex: 1
