@@ -14,8 +14,6 @@ public class TimerWithEvent : MonoBehaviour
     {
         
     }
-
-    // 👉 llamas a este método
     public void StartTimer()
     {
         if (routine != null)
