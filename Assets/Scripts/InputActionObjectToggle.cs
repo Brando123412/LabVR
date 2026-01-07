@@ -23,7 +23,7 @@ public class InputActionObjectToggle : MonoBehaviour
     [SerializeField] private float startSeconds = 90f; // 1 minuto y medio
 
     [Header("Eventos")]
-    public UnityEvent onTimeFinished;
+    public UnityEvent<float> onTimeFinished;
 
     private float currentTime;
     private bool timerRunning;
@@ -149,7 +149,7 @@ public class InputActionObjectToggle : MonoBehaviour
     public void TimeFinished()
     {
         StopTimer(); // asegura que no se dispare 2 veces
-        onTimeFinished?.Invoke();
+        onTimeFinished?.Invoke(currentTime);
         // aquí puedes poner cosas extra si quieres (por ejemplo desactivar UI, etc.)
     }
 

@@ -11,7 +11,7 @@ public class FinalCode : MonoBehaviour
     [Header("Delay")]
     [SerializeField] private float delaySeconds = 2f;
 
-
+    [SerializeField] InputActionObjectToggle input;
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Salida")) return;
@@ -21,7 +21,7 @@ public class FinalCode : MonoBehaviour
     private IEnumerator ExitSequence()
     {
         onReachedExit?.Invoke();
-
+        input.TimeFinished();
         yield return new WaitForSeconds(delaySeconds);
 
         afterDelayEvent?.Invoke();
