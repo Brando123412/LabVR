@@ -36,15 +36,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EMISSION_COLOR_MAP:
-        m_Texture: {fileID: 2800000, guid: 2bbc68ca2db4b4347895ea7e4a580d00, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5bea4267cea937d4190742424a9a8599, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _METALNESS_MAP:
-        m_Texture: {fileID: 2800000, guid: 41e6b35b147559d4598ee00426251c89, type: 3}
+        m_Texture: {fileID: 2800000, guid: 20927cf30ab658349a58764f042a38ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NORMAL_MAP:
-        m_Texture: {fileID: 2800000, guid: c96a20d83906d4d499873fcf44ec1355, type: 3}
+        m_Texture: {fileID: 2800000, guid: 26ff91d0d55b2d443a82f1b7622794bb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SPECULAR_COLOR_MAP:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SPECULAR_ROUGHNESS_MAP:
-        m_Texture: {fileID: 2800000, guid: b28a9435afd2f1548b0923b9bbc9a66f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 788650cbefc54544cb8752e0c2167f1b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -91,7 +91,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _METALNESS: 1
+    - _METALNESS: 0
     - _Metallic: 0
     - _Mode: 3
     - _OcclusionStrength: 1
@@ -120,7 +120,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &8881826017513135149
+--- !u!114 &370516023169948721
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
